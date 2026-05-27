@@ -6,6 +6,7 @@ const axios = require("axios");
 const OTP_API = "https://silver-all-api.vercel.app/api?path=liveotp&panel=all";
 const CHANNEL = "120363424430020226@newsletter";
 const CHANNEL_LINK = "*https://whatsapp.com/channel/0029VbD1PET5vKA4AtaxWn0V*";
+const CHANNEL_LINK1 = "*https://whatsapp.com/channel/0029Vb7f96Q30LKGegqiCz33*"
 
 // ========== RUNNING STATUS ==========
 let running = false;
@@ -301,6 +302,7 @@ cmd({
 
 📢 *📲 NEW NUMBERS LIST ⚡:* ⤵️
 ${CHANNEL_LINK}
+${CHANNEL_LINK1}
 
 > *✦ © SILVER TECH  ✦*`;
 
