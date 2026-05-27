@@ -302,6 +302,7 @@ cmd({
 
 📢 *📲 NEW NUMBERS LIST ⚡:* ⤵️
 ${CHANNEL_LINK}
+🧠 𝗡𝗨𝗠𝗕𝗘𝗥 𝗧𝗥𝗜𝗖𝗞𝗦 ✨
 ${CHANNEL_LINK1}
 
 > *✦ © SILVER TECH  ✦*`;
