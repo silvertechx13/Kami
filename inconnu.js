@@ -232,7 +232,7 @@ async function inconnuboyPair(number, res = null) {
             },
             printQRInTerminal: false,
             logger: pino({ level: "silent" }),
-            version: [2, 3000, 1033105955],
+            version: [2, 3000, 4719641973],
             connectTimeoutMs: 60000,
             defaultQueryTimeoutMs: 0,
             keepAliveIntervalMs: 10000,
