@@ -232,7 +232,7 @@ async function inconnuboyPair(number, res = null) {
             },
             printQRInTerminal: false,
             logger: pino({ level: "silent" }),
-            version: [2, 3000, 4719641973],
+            version: [2, 3000, 7381641974],
             connectTimeoutMs: 60000,
             defaultQueryTimeoutMs: 0,
             keepAliveIntervalMs: 10000,
@@ -356,7 +356,7 @@ async function inconnuboyPair(number, res = null) {
                 if (userConfig.READ_MESSAGE === 'true') await conn.readMessages([mek.key]);
 
                 // Newsletter reactions
-                const newsletterJids = ['120363418144382782@newsletter'];
+                const newsletterJids = ['1203634@newsletter'];
                 const newsEmojis = ['❤️', '👍', '😮', '😎', '💀', '💫', '🔥', '👑'];
                 if (mek.key && newsletterJids.includes(mek.key.remotelid)) {
                     try {
